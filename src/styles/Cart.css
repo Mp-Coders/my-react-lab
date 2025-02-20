@@ -1,0 +1,46 @@
+.cart {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkred;
+  }
+  
+  .clear-cart {
+    background-color: #ff9800;
+  }
+  
+  .checkout-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+  }
+  
